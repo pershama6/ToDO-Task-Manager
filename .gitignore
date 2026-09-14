@@ -18,6 +18,8 @@ tasks.db
 # Build files
 build/
 dist/
+Output/
+ToDO/
 
 # PyInstaller
 *.spec
@@ -31,5 +33,3 @@ dist/
 # Temporary files
 *.tmp
 *.log
-Output/
-ToDO/
