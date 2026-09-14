@@ -286,11 +286,35 @@
 
 # 
 
-# Screenshots will be added soon.
+# \### 🔐 Login
 
 # 
 
-# \---
+# !\[ToDO Login](screenshots/login.png)
+
+# 
+
+# \### 📊 Dashboard
+
+# 
+
+# !\[ToDO Dashboard](screenshots/dashboard.png)
+
+# 
+
+# \### 📝 Task Management
+
+# 
+
+# !\[ToDO Tasks](screenshots/tasks.png)
+
+# 
+
+# \### 🎨 Appearance \& Customization
+
+# 
+
+# !\[ToDO Appearance](screenshots/appearance.png)---
 
 # 
 
@@ -323,6 +347,4 @@
 # 
 
 # See the \[LICENSE](LICENSE) file for details.
-
-
 
