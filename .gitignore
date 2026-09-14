@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local data
+*.db
+*.sqlite
+*.sqlite3
+theme.json
+tasks.db
+
+# Build files
+build/
+dist/
+
+# PyInstaller
+*.spec
+
+# IDE
+.vscode/
+
+# Environment / secrets
+.env
+
+# Temporary files
+*.tmp
+*.log
+Output/
+ToDO/
