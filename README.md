@@ -1,350 +1,189 @@
-# \# ToDO ✓ — can do
+# ToDO ✓ — can do
 
-# 
+A modern desktop **To-Do List and Task Management application** built with Python and Tkinter.
 
-# A modern desktop \*\*To-Do List and Task Management application\*\* built with Python and Tkinter.
+ToDO is designed to help users organize tasks, manage priorities, track progress, set reminders, and personalize their workspace through a clean Windows-friendly interface.
 
-# 
+---
 
-# ToDO is designed to help users organize tasks, manage priorities, track progress, set reminders, and personalize their workspace through a clean Windows-friendly interface.
+## 🚀 Download
 
-# 
+### Windows
 
-# \---
+[![Download ToDO](https://img.shields.io/badge/Download-ToDO%20v1.0.0-blue?style=for-the-badge)](https://github.com/pershama6/ToDO-Task-Manager/releases/latest)
 
-# 
+Download the latest Windows installer and start using ToDO.
 
-# \## ✨ Features
+**Installer:** `mysetup.exe`
 
-# 
+---
 
-# \* 📝 Create, edit, complete, and delete tasks
+## ✨ Features
 
-# \* 🔍 Search tasks instantly
+* 📝 Create, edit, complete, and delete tasks
+* 🔍 Search tasks instantly
+* 📂 Organize tasks with categories
+* 🚨 Set task priorities
+* 📅 Add due dates
+* ⭐ Mark important tasks
+* 📋 Add detailed task descriptions
+* 📊 Track total, completed, and pending tasks
+* 📈 Task progress bar
+* 🔔 Task reminders and notifications
+* 👤 User registration and login system
+* 🔐 Password hashing and secure authentication
+* 💾 SQLite database for persistent storage
+* 🎨 Multiple themes and accent colors
+* 🖼️ Custom background image support
+* 🌙 Dark mode
+* 📤 CSV export/import
+* ⌨️ Keyboard shortcuts
+* 🧹 Clear all tasks with confirmation
+* 💻 Windows executable support
+* 📦 Windows installer using Inno Setup
 
-# \* 📂 Organize tasks with categories
+---
 
-# \* 🚨 Set task priorities
+## 🛠️ Tech Stack
 
-# \* 📅 Add due dates
+| Technology  | Purpose                        |
+| ----------- | ------------------------------ |
+| Python      | Core programming language      |
+| Tkinter     | Desktop GUI                    |
+| SQLite      | Local database                 |
+| Pillow      | Image processing               |
+| Plyer       | Desktop notifications          |
+| JSON        | Theme and application settings |
+| PyInstaller | Windows executable             |
+| Inno Setup  | Windows installer              |
 
-# \* ⭐ Mark important tasks
+---
 
-# \* 📋 Add detailed task descriptions
+## 🖥️ Application
 
-# \* 📊 Track total, completed, and pending tasks
+**ToDO ✓ — can do** provides a desktop experience focused on simplicity, productivity, and customization.
 
-# \* 📈 Task progress bar
+The application includes a modern sidebar, task management tools, filters, statistics, themes, reminders, authentication, and persistent local storage.
 
-# \* 🔔 Task reminders and notifications
+---
 
-# \* 👤 User registration and login system
+## 🔔 Reminders
 
-# \* 🔐 Password hashing and secure authentication
+Tasks can have custom reminder dates and times.
 
-# \* 💾 SQLite database for persistent storage
+> **Note:** In the current version, reminders are processed while the application is running. Full background notifications when the application is completely closed are planned for a future version.
 
-# \* 🎨 Multiple themes and accent colors
+---
 
-# \* 🖼️ Custom background image support
+## 🚀 Getting Started
 
-# \* 🌙 Dark mode
+### Requirements
 
-# \* 📤 CSV export/import
+* Python 3.10+
+* Windows recommended
+* Git
 
-# \* ⌨️ Keyboard shortcuts
+### Clone the repository
 
-# \* 🧹 Clear all tasks with confirmation
+```bash
+git clone https://github.com/pershama6/ToDO-Task-Manager.git
+cd ToDO-Task-Manager
+```
 
-# \* 💻 Windows executable support
+### Install dependencies
 
-# \* 📦 Windows installer using Inno Setup
+```bash
+pip install Pillow plyer
+```
 
-# 
+### Run the application
 
-# \---
+```bash
+python todo_gui.py
+```
 
-# 
+---
 
-# \## 🛠️ Tech Stack
+## 📦 Build Windows EXE
 
-# 
+The project can be packaged as a standalone Windows executable using PyInstaller.
 
-# | Technology  | Purpose                        |
+```bash
+python -m PyInstaller --onefile --windowed --icon=todo.ico --name "ToDO" todo_gui.py
+```
 
-# | ----------- | ------------------------------ |
+The executable will be generated inside:
 
-# | Python      | Core programming language      |
+```text
+dist/ToDO.exe
+```
 
-# | Tkinter     | Desktop GUI                    |
+---
 
-# | SQLite      | Local database                 |
+## 🏗️ Project Structure
 
-# | Pillow      | Image processing               |
+```text
+ToDO-Task-Manager/
+│
+├── todo_gui.py
+├── data script.iss
+├── .gitignore
+├── LICENSE
+└── README.md
+```
 
-# | Plyer       | Desktop notifications          |
+Build and runtime files such as databases, temporary files, and generated build folders are excluded from the repository.
 
-# | JSON        | Theme and application settings |
+---
 
-# | PyInstaller | Windows executable             |
+## 🗺️ Roadmap
 
-# | Inno Setup  | Windows installer              |
+Future improvements planned for ToDO:
 
-# 
+* 📅 Calendar view
+* 🔁 Recurring tasks
+* 📊 Advanced productivity dashboard
+* 🔔 Windows background reminders
+* 💾 Backup and restore
+* ⚙️ Advanced settings
+* 🔒 Additional security improvements
+* 🔄 Automatic update system
+* 📱 Companion/mobile version
 
-# \---
+---
 
-# 
+## 📸 Screenshots
 
-# \## 🖥️ Application
+### 🔐 Login
 
-# 
+![ToDO Login](screenshots/login.png)
 
-# \*\*ToDO ✓ — can do\*\* provides a desktop experience focused on simplicity, productivity, and customization.
+### 📊 Dashboard
 
-# 
+![ToDO Dashboard](screenshots/dashboard.png)
 
-# The application includes a modern sidebar, task management tools, filters, statistics, themes, reminders, authentication, and persistent local storage.
+### 📝 Task Management
 
-# 
+![ToDO Tasks](screenshots/tasks.png)
 
-# \---
+### 🎨 Appearance & Customization
 
-# 
+![ToDO Appearance](screenshots/appearance.png)
 
-# \## 🔔 Reminders
+---
 
-# 
+## 👨‍💻 Author
 
-# Tasks can have custom reminder dates and times.
+**Saad Mohamed**
 
-# 
+Python Developer | MIS Student
 
-# > \*\*Note:\*\* In the current version, reminders are processed while the application is running. Full background notifications when the application is completely closed are planned for a future version.
+This project was created as part of my programming and software development portfolio.
 
-# 
+---
 
-# \---
+## 📄 License
 
-# 
+This project is licensed under the **MIT License**.
 
-# \## 🚀 Getting Started
-
-# 
-
-# \### Requirements
-
-# 
-
-# \* Python 3.10+
-
-# \* Windows recommended
-
-# \* Git
-
-# 
-
-# \### Clone the repository
-
-# 
-
-# ```bash
-
-# git clone https://github.com/pershama6/ToDO-Task-Manager.git
-
-# cd ToDO-Task-Manager
-
-# ```
-
-# 
-
-# \### Install dependencies
-
-# 
-
-# ```bash
-
-# pip install Pillow plyer
-
-# ```
-
-# 
-
-# \### Run the application
-
-# 
-
-# ```bash
-
-# python todo\_gui.py
-
-# ```
-
-# 
-
-# \---
-
-# 
-
-# \## 📦 Build Windows EXE
-
-# 
-
-# The project can be packaged as a standalone Windows executable using PyInstaller.
-
-# 
-
-# ```bash
-
-# python -m PyInstaller --onefile --windowed --icon=todo.ico --name "ToDO" todo\_gui.py
-
-# ```
-
-# 
-
-# The executable will be generated inside:
-
-# 
-
-# ```text
-
-# dist/ToDO.exe
-
-# ```
-
-# 
-
-# \---
-
-# 
-
-# \## 🏗️ Project Structure
-
-# 
-
-# ```text
-
-# ToDO-Task-Manager/
-
-# │
-
-# ├── todo\_gui.py
-
-# ├── data script.iss
-
-# ├── .gitignore
-
-# ├── LICENSE
-
-# └── README.md
-
-# ```
-
-# 
-
-# Build and runtime files such as databases, temporary files, and generated build folders are excluded from the repository.
-
-# 
-
-# \---
-
-# 
-
-# \## 🗺️ Roadmap
-
-# 
-
-# Future improvements planned for ToDO:
-
-# 
-
-# \* 📅 Calendar view
-
-# \* 🔁 Recurring tasks
-
-# \* 📊 Advanced productivity dashboard
-
-# \* 🔔 Windows background reminders
-
-# \* 💾 Backup and restore
-
-# \* ⚙️ Advanced settings
-
-# \* 🔒 Additional security improvements
-
-# \* 🔄 Automatic update system
-
-# \* 📱 Companion/mobile version
-
-# 
-
-# \---
-
-# 
-
-# \## 📸 Screenshots
-
-# 
-
-# \### 🔐 Login
-
-# 
-
-# !\[ToDO Login](screenshots/login.png)
-
-# 
-
-# \### 📊 Dashboard
-
-# 
-
-# !\[ToDO Dashboard](screenshots/dashboard.png)
-
-# 
-
-# \### 📝 Task Management
-
-# 
-
-# !\[ToDO Tasks](screenshots/tasks.png)
-
-# 
-
-# \### 🎨 Appearance \& Customization
-
-# 
-
-# !\[ToDO Appearance](screenshots/appearance.png)---
-
-# 
-
-# \## 👨‍💻 Author
-
-# 
-
-# \*\*Saad Mohamed\*\*
-
-# 
-
-# Python Developer | MIS Student
-
-# 
-
-# This project was created as part of my programming and software development portfolio.
-
-# 
-
-# \---
-
-# 
-
-# \## 📄 License
-
-# 
-
-# This project is licensed under the \*\*MIT License\*\*.
-
-# 
-
-# See the \[LICENSE](LICENSE) file for details.
-
+See the [LICENSE](LICENSE) file for details.
